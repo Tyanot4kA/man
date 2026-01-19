@@ -1,0 +1,132 @@
+.pricing {
+    background-color: black;
+    color: white;
+    width: 1920px;
+    height: 1278px;
+}
+
+.pricing__title {
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.pricing__subtitle {
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.pricing__label {
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.pricing__price-value {
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #fff;
+}
+
+.pricing__note {
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.pricing__offer-label {
+    font-weight: 450;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.pricing__offer-text {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    color: #fff;
+}
+
+.pricing__button {
+    border-radius: 4px;
+    padding: 10px 34px;
+    width: 910px;
+    height: 72px;
+    margin-top: 72px;
+    margin-bottom: 31px;
+
+}
+
+.pricing__agreement {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 120%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.pricing__legal-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #fff;
+}
+
+.pricing__copyright {
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.pricing__header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:  96px 0;
+    height: 220px;
+}
+.pricing__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 96px;
+  align-items: start;
+}
+.pricing__info {
+  display: grid;
+  row-gap: 32px;
+}
+.pricing__offer {
+  display: grid;
+  row-gap: 32px;
+}
+.pricing__footer{
+
+    margin-top: 120px;
+    width: 910px;
+    height: 204px;
+}
+.pricing__legal{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 12px;
+}
+.pricing__meta{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0px 0px;
+    width: 910px;
+    height: 64px;
+}
