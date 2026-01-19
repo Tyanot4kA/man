@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Suisse Intl';
+    src: url('SuisseIntl.eot');
+    src: url('SuisseIntl.eot?#iefix') format('embedded-opentype'),
+        url('SuisseIntl.woff2') format('woff2'),
+        url('SuisseIntl.woff') format('woff'),
+        url('SuisseIntl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
