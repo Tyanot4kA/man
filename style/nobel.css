@@ -1,0 +1,64 @@
+.definition__section
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 108px;
+    margin-bottom: 120px;
+    padding: 1px;
+    margin: 108px 655px 0px 360px;
+}
+.row__text
+{
+    display: flex;
+}
+.definition__text__grey
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    color: #101010;
+}
+.definition__text
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 450;
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #101010;
+}
+.nobel__section
+{
+    display: flex;
+    gap: 18px;
+}
+.nobel__info
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+}
+.nobel__img
+{
+    max-width: 96px;
+    max-height: 96px;
+    border-radius: 100%;
+}
+.nobel__name
+{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #101010;
+}
+.nobel__advantage
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #101010;
+}
