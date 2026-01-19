@@ -1,0 +1,33 @@
+.partners__title{
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #101010;
+}
+.partners__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  border: 1px solid #e0e0e0;
+}
+.partners__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+
+}
+.partners__container{
+    width: 910px;
+    height: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 56px;
+
+}
+.partners{
+    height: 1150px;
+}
