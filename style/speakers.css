@@ -1,0 +1,127 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.talker__section
+{
+    margin: 96px 650px 96px 360px; 
+    max-width: 910px;
+    max-height: 1489px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+.talkers__cards-row
+{
+    display: flex;
+    gap: 40px;
+}
+.talkers__upper
+{
+    display: flex;
+    justify-content: start;
+}
+.talkers__cards
+{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.talkers__img
+{
+    max-width: 435px;
+    max-height: 400px;
+}
+.talkers__main
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    color: #101010;
+}
+.talkers__descryption
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: end;
+    color: #101010
+}
+.talker_name
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: -0.02em;
+    color: #101010;
+}
+.talker__town
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    color: #101010;
+}
+.talker__story
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    color: rgba(16, 16, 16, 0.6);
+}
+.talkers__theme
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgba(16, 16, 16, 0.6);
+}
+.theme__descryption
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.01em;
+    color: #101010;
+}
+.row__info
+{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.line
+{
+    border-bottom: 1px solid #101010;
+    padding: 0px 0px 24px;
+    max-width: 435px;
+}
+.telega__section
+{
+    display: flex;
+    margin: 120px 940px 140px 650px;
+    justify-content: center;
+    gap: 8px;
+}
+.telega__link
+{
+    font-family: "Suisse Intl", sans-serif;
+    font-weight: 450;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #101010;
+    margin-top: 8px;
+}

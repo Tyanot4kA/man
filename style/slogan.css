@@ -1,0 +1,49 @@
+.slogan{
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap:48px;
+    margin-bottom : 132px ;
+    
+}
+.slogan__Title-text{
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 110%;
+    letter-spacing: -0.04em;
+    text-transform: lowercase;
+    color: #101010;
+    font-family: "Raleway", sans-serif;
+}
+.slogan__Title-text--Two {
+    display: flex;
+    justify-content: end;
+}
+.slogan__text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: #101010;
+    font-family: "Raleway", sans-serif;
+}
+
+.slogan__item--full {
+    grid-column: 1; 
+    grid-row: 1 / span 2; 
+    height: 100%;
+}
+
+.slogan__item--left {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.slogan__item--right {
+    grid-column: 2;
+    grid-row: 2;
+}
