@@ -1,0 +1,49 @@
+.informaition{
+    display: flex;
+    flex-direction: column;
+    gap: 57px;
+    margin-bottom: 96px;
+}
+.informaition__place-date{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #101010;
+    font-family: "Raleway", sans-serif;
+}
+.informaition__star-end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:8px;
+}
+.informaition__line-time{
+    width: 100%;
+    background-color: black;
+    height: 4px;
+}
+.informaition__start{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #101010;
+    font-family: "Raleway", sans-serif;
+}
+.informaition__end{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #101010;
+    font-family: "Raleway", sans-serif;
+}
+.informaition__clik-button{
+    border-radius: 4px;
+    border: none;
+    padding: 16px 126px;
+    color: #fff;
+    background-color: #101010;
+    
+}
